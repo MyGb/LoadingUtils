@@ -26,10 +26,10 @@ public class LoadingUtil {
         }
         frameLayout = (FrameLayout) activity.getWindow().getDecorView();
         loadingView = View.inflate(activity, resId, null);
-        FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.WRAP_CONTENT, FrameLayout.LayoutParams.WRAP_CONTENT);
-        layoutParams.gravity = Gravity.CENTER;
-        loadingView.setLayoutParams(layoutParams);
-        loadingView.setVisibility(View.VISIBLE);
+        //FrameLayout.LayoutParams layoutParams = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.WRAP_CONTENT, FrameLayout.LayoutParams.WRAP_CONTENT);
+        //layoutParams.gravity = Gravity.CENTER;
+        //loadingView.setLayoutParams(layoutParams);
+        //loadingView.setVisibility(View.VISIBLE);
         frameLayout.addView(loadingView);
     }
 
